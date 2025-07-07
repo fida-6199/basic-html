@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics Of Html</title>
+    <link rel="HTML icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png">   
+    <style>
+        *{
+            margin: 10px;
+            gap: 10px;
+        }
+#center{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+td, th {
+    border:  solid black;
+    padding: 10px;
+}
+    </style>
+</head>
+<body>
+     <p id="center">Hey</p>
+<!-- structure -- <> paragraph/content </>  -->
+
+<p>paragraph -- HTML: HyperText Markup Language </p>
+bold      -- <b> You Can Bold A Text By This Tag </b> <br>
+strong    -- <strong> You Can strong A Text By This Tag </strong> <br>
+italic    -- <i> You Can italic A Text By This Tag </i> <br>
+small     -- <small> You Can small A Text By This Tag </small> <br>
+em/imp    -- <em> You Can em A Text By This Tag </em><br> <!-- semantic  -- meaningful
+strong,em is semantic tags -->
+<!-- inline -- in a line : strong , em , i , small , span <comment>( these actually doesnt create a new line )</comment> -->
+<!-- block  -- in a line : p , h1-6 , div <comment>( these actually creates a new line )</comment> --> 
+<li>you can list some items with this tag</li>
+un-ordered list -- <ul>bullet tag </ul>
+<!-- ul is a container tag <comment>container tag means in contains some tags</comment> -->
+ordered list -- <ol> number tags </ol>
+<!-- division -- div . which is also a container tag 
+container tags - div , ol , ul  -->
+division -- <div> container tag </div>
+break a line -- <br>
+button -- <button> click </button><br>
+anchor : <a href="https://chatgpt.com">gpt</a>
+<a href="https://web.programming-hero.com/home" target="_blank">programming-hero</a> 
+<!-- <comment>for opening the website with a new tab </comment> --><br>
+<!-- image : img
+source: src -->
+<!-- tag -- <img src="" alt=""> --><br>
+<img width="150px" src="demonpfp.jpg" alt=""><br>download from here :
+<a href="demonpfp.jpg" download>Demon Player Photo</a><br><br>
+<button>This Is A Button Tag</button><br><br>
+<span style="color:blue" >we can span a text with this text</span><br>
+<audio controls>
+    <source src="Sei Meyeti [BHhxPq0_zcU].opus" >
+</audio><br>
+<!-- Center Tag -- text-align: center; -->
+<form>
+    <fieldset>
+        <legend>Demon  </legend>
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname"> <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"> <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date"  ><br><br>
+        <input type="submit" value=submit>
+    </fieldset>
+    <h1>Professional players Name</h1>
+    <table>
+       <tbody>
+        <tr>
+            <th>NAME</th>
+            <th>KDA</th>
+            <th>AGE</th>
+        </tr>
+        <tr>
+            <td>Demon 1</td>
+            <td>4.91</td>
+            <td>18</td>
+        </tr>
+        
+        <tr>
+            <td>Demon 2</td>
+            <td>4.92</td>
+            <td>19</td>
+        </tr>
+        
+        <tr>
+            <td>Demon 3</td>
+            <td>4.93</td>
+            <td>20</td>
+        </tr>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>
